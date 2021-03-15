@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 27 19:19:02 2020
+# Process ID: 35080
+# Current directory: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent40952 C:\Users\tinte\OneDrive\Desktop\ProiectSSC\senzor_temp\senzor_temp.xpr
+# Log file: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/vivado.log
+# Journal file: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

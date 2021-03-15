@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec 28 14:00:00 2020
+# Process ID: 45308
+# Current directory: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent51872 C:\Users\tinte\OneDrive\Desktop\ProiectSSC\senzor_temp\senzor_temp.xpr
+# Log file: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/vivado.log
+# Journal file: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1036.355 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Dec 28 15:10:12 2020] Launched synth_1...
+Run output will be captured here: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.runs/synth_1/runme.log
+[Mon Dec 28 15:10:12 2020] Launched impl_1...
+Run output will be captured here: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Dec 28 15:16:56 2020] Launched synth_1...
+Run output will be captured here: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.runs/synth_1/runme.log
+[Mon Dec 28 15:16:56 2020] Launched impl_1...
+Run output will be captured here: C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 28 15:20:31 2020...

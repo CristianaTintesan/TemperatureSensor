@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Jan  9 21:37:33 2021
+# Process ID: 15820
+# Current directory: C:/Users/tinte/OneDrive/Desktop/senzor_temp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10060 C:\Users\tinte\OneDrive\Desktop\senzor_temp\senzor_temp.xpr
+# Log file: C:/Users/tinte/OneDrive/Desktop/senzor_temp/vivado.log
+# Journal file: C:/Users/tinte/OneDrive/Desktop/senzor_temp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tinte/OneDrive/Desktop/senzor_temp/senzor_temp.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/tinte/OneDrive/Desktop/senzor_temp/senzor_temp.srcs/sources_1/new/i2c_slave.vhd'; using path 'C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.srcs/sources_1/new/i2c_slave.vhd' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/Users/tinte/OneDrive/Desktop/senzor_temp/senzor_temp.srcs/sources_1/new/i2c_slave.vhd'; using path 'C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.srcs/sources_1/new/i2c_slave.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/tinte/OneDrive/Desktop/senzor_temp/senzor_temp.srcs/sources_1/new/i2c_slave.vhd'; using path 'C:/Users/tinte/OneDrive/Desktop/ProiectSSC/senzor_temp/senzor_temp.srcs/sources_1/new/i2c_slave.vhd' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1023.793 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Jan  9 21:40:18 2021] Launched synth_1...
+Run output will be captured here: C:/Users/tinte/OneDrive/Desktop/senzor_temp/senzor_temp.runs/synth_1/runme.log
+[Sat Jan  9 21:40:18 2021] Launched impl_1...
+Run output will be captured here: C:/Users/tinte/OneDrive/Desktop/senzor_temp/senzor_temp.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jan  9 21:45:08 2021...
